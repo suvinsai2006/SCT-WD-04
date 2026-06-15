@@ -27,27 +27,19 @@ Most task managers force you to sign up, wait for server syncs, or navigate clut
 Make sure you have [Node.js](https://nodejs.org/) installed (v18+ recommended).
 
 # Installation & Run
-1. Clone the repository and navigate to the directory:
-   
-   cd SCT-WD-4
-   
-2. Install the project dependencies:
-   
+1. Install the project dependencies:
    npm install
-   
-3. Start the Vite local development server:
-   
+2. Start the Vite local development server:
    npm run dev
-4. Open the link displayed in your terminal to view TaskHub in your browser.
+3. Open the link displayed in your terminal to view TaskHub in your browser.
 
 # Project Structure
 A quick overview of where the key parts of the app live:
-```text
 ├── index.html
 ├── src
-│   ├── App.css          # Core layout, main styling and dark theme overrides
-│   ├── App.jsx          # Main application shell and state management (tasks, sorting, filters)
-│   ├── index.css        # Global variables, typography, scrollbars, and resetting
+│   ├── App.css          
+│   ├── App.jsx          
+│   ├── index.css       
 │   ├── main.jsx         # Entry point setting up React rendering
 │   └── components
 │       ├── CustomSelect.jsx  # Customized select dropdown for priority selection
